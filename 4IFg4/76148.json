@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/06051462.shtml
+
+原标题：golang kafka 消费者偏移量管理
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/96462584.shtml
+
+原标题：API 接口调试与异常处理实战
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40569506.shtml
+
+原标题：golang redis 大 key 识别处理方案
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/52624739.shtml
+
+原标题：golang docker 部署 mysql 注意事项
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/63736240.shtml
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95904027.shtml
+
+原标题：OpenSource：开源项目README高质量编写指南
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/48684758.shtml
+
+原标题：Practice：实现接口防重提交组件实践
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/07139314.shtml
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/84970680.shtml
+
+原标题：开发生产环境资源路径统一
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/76683735.shtml
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73903929.shtml
+
+原标题：从零编写简易 CLI 命令行工具
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95025363.shtml
+
+原标题：从零学习基础的接口请求与参数处理
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/31714036.shtml
+
+原标题：新手教程：本地环境变量配置全流程
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17271706.shtml
+
+原标题：react 状态管理方案选型对比
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/84946181.shtml
+
+原标题：Debug：消息队列死信队列堆积无人处理业务阻塞
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/76069573.shtml
+
+原标题：实战项目：GitHubAction自动测试构建实践
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/39492625.shtml
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/18272817.shtml
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/39495816.shtml
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/06470618.shtml
+
+原标题：业务错误码完整落地实践
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28679583.shtml
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/42624130.shtml
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/96157363.shtml
+
+原标题：golang gin 框架接口开发实战
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/39684795.shtml
+
+原标题：golang zap 日志按日期切割方案
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/39462305.shtml
+
+原标题：vite 项目配置与构建提速技巧
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/62027170.shtml
+
+原标题：golang redis pipeline 批量操作
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/04237061.shtml
+
+原标题：golang mysql json 字段查询使用
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17141414.shtml
+
+原标题：排错：HTTPS证书过期导致接口调用失败
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/41618179.shtml
+
+原标题：安全实践：防止重放攻击接口签名方案
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95027470.shtml
+
+原标题：方案对比：RPC、HTTP、gRPC场景选型分析
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17294705.shtml
+
+原标题：golang 系统设计技术文档维护更新最佳实践
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17162592.shtml
+
+原标题：golang redis 批量 pipeline 实践
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/02048170.shtml
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/07379792.shtml
+
+原标题：golang 系统设计最小权限原则落地实践
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30572525.shtml
+
+原标题：日志输出规范防止磁盘爆满
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/39393706.shtml
+
+原标题：golang 系统设计本地缓存与分布式缓存
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/47478068.shtml
+
+原标题：golang md5 sha 加密工具实现
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/75950363.shtml
+
+原标题：golang 系统设计分布式事务几种方案
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/70738170.shtml
+
+原标题：架构复盘：业务系统中如何合理使用分库分表
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/51938140.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Architecture：文件处理服务架构大文件内存规避
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/04967473.shtml
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30513936.shtml
+
+原标题：内存溢出问题现象识别排查
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95379583.shtml
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/52635959.shtml
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/93147353.shtml
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30402826.shtml
+
+原标题：服务器时钟同步任务错乱修复
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/74856363.shtml
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/39462505.shtml
+
+原标题：Practice：实现多级缓存本地缓存+Redis实践
+简介：静态站点自动部署发布方案，配置流水线，代码更新自动构建静态站点并且部署上线，简化发布。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/37594748.shtml
+
+原标题：入门实践：搭建简单的热更新开发环境
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73067061.shtml
+
+原标题：踩坑记录：浮点数作为Rediskey匹配异常
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/86149282.shtml
+
+原标题：避坑：预编译SQL失效，出现SQL注入风险
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/29672505.shtml
+
+原标题：开发复盘：超时参数统一治理线上服务实践
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/29449242.shtml
+
+原标题：golang docker 部署 mysql 注意事项
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/06168482.shtml
+
+原标题：操作系统内核版本适配服务
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/07837031.shtml
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/62917959.shtml
+
+原标题：图片上传预览格式大小处理
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/52935240.shtml
+
+原标题：golang 系统设计 issue 模板 bug 反馈模板
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73835746.shtml
+
+原标题：golang 系统设计读写分离延迟业务兼容
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/20506847.shtml
+
+原标题：nodejs 内存溢出问题排查修复
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17238069.shtml
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28380695.shtml
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/41627039.shtml
+
+原标题：Hands‑on：本地模拟消息重复消费处理实践
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/18349061.shtml
+
+原标题：方案设计：多租户系统架构三种实现模式对比
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/84957180.shtml
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/62602704.shtml
+
+原标题：css 动画性能优化 GPU 加速
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/36693636.shtml
+
+原标题：golang k8s 滚动更新回滚策略
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30783625.shtml
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28380603.shtml
+
+原标题：快速上手简单信号处理脚本编写
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/96160670.shtml
+
+原标题：golang http client 连接池调优
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30493929.shtml
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30483525.shtml
+
+原标题：大事务拆分防止连接池耗尽
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73067469.shtml
+
+原标题：排错：CI缓存策略错误，每次全量重新构建
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/50492515.shtml
+
+原标题：开发复盘：避免大报文导致服务OOM优化实践
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95060704.shtml
+
+原标题：golang websocket 服务端开发
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/31633637.shtml
+
+原标题：Issue：容器日志驱动配置错误日志全部丢失
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28599585.shtml
+
+原标题：golang redis pipeline 批量操作
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40483626.shtml
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/51513030.shtml
+
+原标题：开发测试生产多环境配置区分
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73150382.shtml
+
+原标题：全平台系统环境变量配置
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40816031.shtml
+
+三、实战开发｜Practice
+原标题：golang 系统设计单元测试表驱动测试 table‑driven
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40483137.shtml
+
+原标题：调试工具断点调试变量查看技巧
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40472516.shtml
+
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/41514026.shtml
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/96079504.shtml
+
+原标题：golang k8s pod 优雅关闭流程讲解
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17172515.shtml
+
+原标题：golang 简单爬虫请求防封禁
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95927060.shtml
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73746259.shtml
+
+原标题：新手教程：gitrebase基础使用与风险提示
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/62768471.shtml
+
+原标题：golang 系统设计日志轮转切割防止磁盘占满
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95906060.shtml
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/39384818.shtml
+
+原标题：部署实践：告警收敛避免告警风暴配置
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28379597.shtml
+
+原标题：快速入门消息通知简单实现方案
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/62793037.shtml
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28349504.shtml
+
+原标题：golang mongodb 索引优化查询速度
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17271405.shtml
+
+原标题：多套环境灵活切换配置方案
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95240586.shtml
+
+原标题：Troubleshoot：MySQL字符集utf8非utf8mb4emoji报错
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/41615130.shtml
+
+原标题：CI 流水线超时时间延长配置
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73808170.shtml
+
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/84936259.shtml
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95069383.shtml
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/07279596.shtml
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/96351403.shtml
+
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/38381815.shtml
+
+原标题：golang 单元测试 table‑driven
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40686950.shtml
+
+原标题：架构复盘：慢查询治理架构层面优化手段
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17584698.shtml
+
+原标题：golang gitlab runner 部署与注册实操
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/18358471.shtml
+
+原标题：项目构建脚本编译打包解析
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/73736581.shtml
+
+原标题：程序日志分级输出规范实践
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/29270685.shtml
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/41503920.shtml
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17281726.shtml
+
+原标题：架构复盘：RPC框架架构超时重试设计要点
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/06039282.shtml
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/51917061.shtml
+
+原标题：架构笔记：分布式事务方案对比与业务取舍
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40413920.shtml
+
+原标题：golang etcd 配置中心简单使用
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/03127360.shtml
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/29402818.shtml
+
+原标题：快速入门OpenAPI文档生成基础实践
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/63846259.shtml
+
+原标题：方案设计：分布式锁失效风险架构层面规避
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/40594738.shtml
+
+原标题：前端下载导出文件功能实现
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/70838171.shtml
+
+原标题：性能复盘：接口响应从800ms优化到50ms全过程
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30515159.shtml
+
+原标题：实战项目：WSL开发环境完整配置实操
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/51523921.shtml
+
+原标题：Architecture：链路追踪架构核心组件与埋点
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/51701558.shtml
+
+四、架构设计｜Architecture
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/36046837.shtml
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/63816960.shtml
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28350304.shtml
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30491815.shtml
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/96460393.shtml
+
+原标题：复盘总结：分布式系统常见坑点汇总清单
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17588472.shtml
+
+原标题：golang 优雅处理数据库事务
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/96150393.shtml
+
+原标题：nodejs jwt 登录鉴权完整示例
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28371805.shtml
+
+原标题：性能复盘：慢SQL定位、分析、改写完整案例
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/28391715.shtml
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/62735127.shtml
+
+原标题：开源源码阅读拆解学习思路
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/95957364.shtml
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/06130404.shtml
+
+原标题：golang 系统设计内部服务链路 trace 传递实现
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/85351571.shtml
+
+原标题：记一次分布式锁失效引发的数据错乱问题
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/76352585.shtml
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/62018173.shtml
+
+原标题：OOMKilled 容器被杀完整排查
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/17351586.shtml
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/30493927.shtml
+
+原标题：安全笔记：文件下载接口路径校验安全
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://www.blog.tceivs.cn/bhsha/94938142.shtml
+
+?
