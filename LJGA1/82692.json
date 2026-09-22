@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计技术方案评审关注点清单参考
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/26462514.html
+
+原标题：eslint prettier 代码规范落地
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/85247362.html
+
+原标题：golang 文件上传下载接口开发
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/31573746.html
+
+原标题：golang 系统设计开源 issue 处理回复沟通技巧
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/36949573.html
+
+原标题：GraphQL 接口查询优化实操
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/59279294.html
+
+原标题：golang redis zset 排行榜业务实现
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/52468037.html
+
+原标题：入门实践：简单错误码设计与使用规范
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/43556190.html
+
+原标题：golang 系统设计接口超时设计原则梳理
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/87096686.html
+
+原标题：golang 内存 pprof 定位内存泄漏
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/29362695.html
+
+原标题：快速上手简单信号处理脚本编写
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/18239183.html
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07262562.html
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/64906817.html
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74848473.html
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/53725473.html
+
+原标题：排错：前端缓存304异常更新不及时
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/63027069.html
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/31514798.html
+
+原标题：golang 系统设计容量评估简单方法论
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/18280695.html
+
+原标题：golang 多协程任务池并发控制
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41583647.html
+
+原标题：设计思考：系统降级开关架构设计快速切流量
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41503925.html
+
+原标题：安全复盘：业务数据脱敏防止泄露实践
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/18241514.html
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/30403039.html
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07170692.html
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/85936068.html
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/48161403.html
+
+原标题：golang 系统设计指标聚合计算存储选型对比
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/29392415.html
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/84947482.html
+
+原标题：golang 限流熔断降级完整示例
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/40405707.html
+
+原标题：golang k8s ingress‑nginx 配置 ssl 证书
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07160604.html
+
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/10583738.html
+
+原标题：编译打包产物依赖分析解读
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/82021304.html
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：golang 结构体 json 序列化坑点，梳理 Go 结构体 JSON 序列化高频坑点，字段大小写、零值处理问题。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/30392515.html
+
+原标题：golang 简单爬虫请求防封禁
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/95157171.html
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41685699.html
+
+原标题：布隆过滤器误判问题修正
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74836360.html
+
+原标题：golang mysql 防止 sql 注入实践
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/79703003.html
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/69391716.html
+
+原标题：golang 系统设计故障演练简单思路
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/42614037.html
+
+原标题：golang 系统设计 rest 分页排序过滤参数规范
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/96068171.html
+
+原标题：golang 系统设计消息队列 topic 设计原则梳理
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07058483.html
+
+原标题：系统文件描述符上限调大
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/47496859.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计 tcp 粘包拆包处理方案实现
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/29492948.html
+
+原标题：Hands‑on：简易配置中心本地原型实现
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/39463637.html
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74058582.html
+
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/29492537.html
+
+原标题：前端下载导出文件功能实现
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/69492016.html
+
+原标题：golang 系统设计缓存降级开关快速切库实现
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/15236282.html
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/60806921.html
+
+原标题：多版本开发环境共存配置
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/06158473.html
+
+原标题：HelloCI：理解持续集成基础工作流程
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/63706958.html
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/96069282.html
+
+原标题：开发复盘：统一错误码体系设计落地实践
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41808149.html
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/51602536.html
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/30468463.html
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74937361.html
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07179584.html
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/72028140.html
+
+原标题：实践：大文件分片上传后端完整实现思路
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07138179.html
+
+原标题：开源实践：Fork上游项目，持续同步更新代码
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74991506.html
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/85919136.html
+
+原标题：Hands‑on：简易配置中心本地原型实现
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/48574758.html
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/30491705.html
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/31503814.html
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41514718.html
+
+原标题：nodejs 定时任务生产环境避坑
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/85946950.html
+
+原标题：服务器时钟同步任务错乱修复
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/52724141.html
+
+原标题：golang 系统设计 mq 消息重复消费处理
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/52604627.html
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/82036240.html
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/63028130.html
+
+原标题：golang k8s 滚动更新回滚策略
+简介：golang sqlx 原生 SQL 代码简化，sqlx 简化原生 SQL 结果映射结构体，兼顾性能与开发效率。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/59780715.html
+
+原标题：数据库排序规则统一结果一致
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07131511.html
+
+原标题：golang redis 过期策略内存淘汰
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/95373696.html
+
+原标题：golang k8s cronjob 定时任务配置
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/37784803.html
+
+原标题：Architecture：限流计数器架构时间窗口选型对比
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/29392404.html
+
+原标题：gitignore 文件编写过滤规则
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/26462415.html
+
+原标题：eslint prettier 代码规范落地
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74803515.html
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41617041.html
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41513137.html
+
+原标题：日志敏感信息脱敏泄露防护
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/52574920.html
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/41537060.html
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07160603.html
+
+三、实战开发｜Practice
+原标题：golang http 代理客户端配置
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/95058171.html
+
+原标题：golang 系统设计 mq 消息丢失完整防护
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/14148485.html
+
+原标题：HelloDocker：编写你的第一个Dockerfile
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74896972.html
+
+原标题：golang 系统设计线程协程泄露定位方法
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07257171.html
+
+原标题：golang 项目 docker compose 本地调试
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/73614138.html
+
+原标题：golang k8s ingress‑nginx 配置 ssl 证书
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07240392.html
+
+原标题：效率笔记：VSCode插件集合后端前端开发效率
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/07451461.html
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/08169704.html
+
+原标题：golang 系统设计数据脱敏架构实现
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/26256925.html
+
+原标题：Fork 开源项目同步上游代码
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/92791693.html
+
+原标题：WSL 文件权限访问异常修复
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/84791478.html
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/93801589.html
+
+原标题：文件句柄耗尽资源泄露处理
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/76845745.html
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/92344557.html
+
+原标题：golang kafka offset 提交策略
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/37796080.html
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/93433798.html
+
+原标题：入门实践：本地简单代理服务搭建
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/27453765.html
+
+原标题：性能复盘：系统上下文切换过高性能下降调优
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/48991913.html
+
+原标题：Hands‑on：简易邮件发送服务封装实践
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/79234794.html
+
+原标题：Issue：WSL2内存持续暴涨不自动释放
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/13469898.html
+
+原标题：golang gin 路由分组权限管控
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/90126667.html
+
+原标题：golang 系统设计海量数据分页查询
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/57865879.html
+
+原标题：实战项目：本地搭建Prometheus监控完整demo
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/82354572.html
+
+原标题：优化实践：接口批量合并减少网络请求次数
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/09034446.html
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/59009134.html
+
+原标题：安全笔记：JWT安全风险，签名泄露过期控制
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/86938169.html
+
+原标题：Debug：消息队列死信队列堆积无人处理业务阻塞
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/96361362.html
+
+原标题：OAuth2 第三方登录服务搭建
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/29451369.html
+
+原标题：golang 配置文件多环境加载
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/59713027.html
+
+原标题：Fork 开源项目同步上游代码
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/63735251.html
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/00450302.html
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/74838039.html
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/28280925.html
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/18279695.html
+
+原标题：排错：内网域名解析不稳定导致服务随机报错
+简介：golang errgroup 协程组错误处理，errgroup 捕获协程错误，context 取消剩余协程，简化并发任务。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/75946140.html
+
+原标题：单元测试用例编写入门实操
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/03724025.html
+
+原标题：复盘总结：数据库迁移升级风险评估清单
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/29380792.html
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/52583625.html
+
+原标题：入门实践：Git分支创建切换合并完整演示
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/96050273.html
+
+原标题：golang 系统设计用户签到统计方案
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/96040270.html
+
+四、架构设计｜Architecture
+原标题：批量数据处理脚本编写技巧
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/15240392.html
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/30894796.html
+
+原标题：优化实践：接口批量合并减少网络请求次数
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/11590691.html
+
+原标题：golang redis lua 脚本开发调试
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/06139242.html
+
+原标题：golang grafana 监控面板简单配置
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/63916958.html
+
+原标题：服务器时钟同步任务错乱修复
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/85149170.html
+
+原标题：Troubleshooting：依赖安装失败完整排查清单
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/65896019.html
+
+原标题：新手指南：看懂开源项目的Issue与PR
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/03667688.html
+
+原标题：CLI 工具进度条交互效果开发
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/80142255.html
+
+原标题：golang prometheus counter gauge 使用
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/81332448.html
+
+原标题：踩坑记录：CPU亲和配置不合理多核心负载不均
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/18148813.html
+
+原标题：golang 系统设计告警风暴抑制方案实现
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/06916948.html
+
+原标题：依赖版本冲突兼容修复方案
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/71916958.html
+
+原标题：实践：前后端时间格式统一规范落地实践
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/85050361.html
+
+原标题：模拟登录鉴权权限判断示例
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/97170681.html
+
+原标题：golang 系统设计 go benchmark 性能测试实操
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/15249079.html
+
+原标题：开发复盘：大JSON解析分批处理避免内存溢出
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/30462706.html
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://www.blog.xbrbu.cn/wswse/85062506.html
+
+?
